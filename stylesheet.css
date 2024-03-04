@@ -7,14 +7,11 @@
         }
 
         video { 
-            max-width: 100px;
+            max-width: 165px;
             float: left; /* YOU CAN FLOAT AN ELEMENT WITHIN A GRID AREA */
             margin: .5em;
-            bottom: 30px;
+            margin-top: 20px;
             position: relative;
-            transform: rotate(90deg);
-            left: 5em;
-            margin-right: 10em;
         }
         
         header {
@@ -107,8 +104,8 @@
             }
 
             img {
-				display: none; /* AND YOU CAN MAKE THINGS DISAPPEAR WHEN NOT NEEDED */
-			}
+		display: none; /* AND YOU CAN MAKE THINGS DISAPPEAR WHEN NOT NEEDED */
+	    }
 
             video {
                 display: none;
